@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env/
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
+
+# Model files and weights
+*.h5
+*.ckpt
+*.pb
+*.tflite
+
+# Flask cache or DB
+instance/
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git lock files
+.git/index.lock
+
+# PyCache
+*.pyc
+
+# Node (if any frontend or Flask plugin uses npm)
+node_modules/
+
+# Dataset (optional if large)
+datasets/
